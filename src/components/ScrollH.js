@@ -5,8 +5,11 @@ const ScrollH = (props) => {
 		overflowX: "scroll" 
 	};
 	return (
-		<div style={scrollh_style} className="w-100 h5">
-			{props.children}
+		<div 
+			style={scrollh_style}
+			className="w-80 center"
+		>
+			{ props.children }
 		</div>
 	);
 }

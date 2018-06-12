@@ -29,7 +29,7 @@ class App extends Component {
     render() {
         const lsts = this.state;
         return (
-            <div className="App bg-light-blue">
+            <div className="App bg-light-blue w-100 h-100">
                 <Header />
                 <ListBox lsts={lsts} />
             </div>
